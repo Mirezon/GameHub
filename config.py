@@ -41,7 +41,7 @@ class Config:
     
     # Ссылки на дополнительные ресурсы
     PRIVATE_LINK = "https://t.me/+YOUR_PRIVATE_CHANNEL_LINK"
-    POSTER_LINK = "@Zx_x_delux"
+    POSTER_LINK = ""
     IDEA_FORM_LINK = "https://forms.gle/YOUR_FORM_LINK"
     # Имя менеджера (username без @) для кнопки "Написать менеджеру". Оставьте пустым, чтобы использовать OWNER ID.
     MANAGER_USERNAME = ""

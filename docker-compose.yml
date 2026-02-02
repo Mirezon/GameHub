@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  bot:
+    build: .
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+    volumes:
+      - ./data:/app/data
+      - ./files:/app/files
+    restart: unless-stopped
+    command: python bot.py
